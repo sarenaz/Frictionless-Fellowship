@@ -1,0 +1,132 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "social-science-journal-articles-kg",
+      "path": "journal-articles-ss-kg.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Lens ID",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Title",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Publication Year",
+            "type": "year",
+            "format": "default"
+          },
+          {
+            "name": "Source Title",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "ISSNs",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Publisher",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Source Country",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "Authors",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Abstract",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "Volume",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Issue Number",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Start Page",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "End Page",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Fields of Study",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Keywords",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "Source URLs",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "DOI",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "References",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "Citing Works Count",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "bibliometrics",
+    "journal articles",
+    "social sciences and humanities",
+    "kyrgyzstan "
+  ],
+  "name": "social-science-journal-articles-kg",
+  "title": "Social Science Journal Articles published by Kyrgyzstani Authors",
+  "description": "Social Science Journal Articles published by Kyrgyzstani Authors between 1991-2021",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "title": "lens.org",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-SA-4.0",
+      "title": "Creative Commons Attribution Share-Alike 4.0",
+      "path": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ]
+}
