@@ -1,0 +1,99 @@
+{
+        "fields": [
+          {
+            "name": "Lens ID",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Title",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Publication Year",
+            "type": "year",
+            "format": "default"
+          },
+          {
+            "name": "Source Title",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "ISSNs",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Publisher",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Source Country",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Author/s",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Volume",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Issue Number",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Start Page",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "End Page",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Fields of Study",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Keywords",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "Funding",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "Source URLs",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "DOI",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "References",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "Citing Works Count",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      }
